@@ -1,0 +1,101 @@
+@media screen and (max-width: 1024px){
+    .portfolio__name,.contact, .contact__textarea,.contact__button{
+        font-size: 1.25rem;
+    }
+    .portfolio__list__element,.button__repository, .button__demo{
+        font-size: 1rem;
+    }
+    .img__skills{
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .portfolio__name{
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .portfolio__list__nav{
+        display: none;
+    }
+    .img__skills{
+        width: 200px;
+    }
+    .section__encrypt, .section__game{
+        flex-direction: column;
+    }
+    .container__img__experience, .container__links__experience{
+        width: 100%;
+    }
+    .container__links__experience{
+        margin-top: 30px;
+    }
+    .section__game{
+        flex-direction: column-reverse;
+    }
+    .portfolio__contact__img{
+        display: none;
+    }
+    .portfolio__contact__form{
+        width: 100%;
+        justify-content: center;
+    }
+    .portfolio__contact__form h2{
+        text-align: center;
+    }
+    .portfolio__contact__form p {
+        width: 80%;
+        margin: auto;
+    }
+    .portfolio__contact__form ul{
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+    }
+    .contact, .contact__textarea{
+        width: 100%;
+    }
+    .contact__button__container{
+        width: 80%;
+        margin: auto; 
+    }
+}
+@media screen and (max-width: 600px) and (min-width: 340px){
+    h1{
+        font-size: 2rem;
+    }
+    .div__skills, .portfolio__img__hobbies{
+        flex-wrap: wrap;
+    }
+    .conteriner__img__hobbies{
+        margin-bottom: 20px;
+    }
+    .portfolio__img__formations{
+        width: 90%;
+        margin: auto;
+    }
+    .container__img__formations{
+        width: 100%;
+    }
+    .portfolio__contact__form ul{
+        width: 90%;
+        margin: auto;
+    }
+    .contact, .contact__textarea{
+        width: 100%;
+    }
+    .contact__button__container{
+        width: 90%;
+        margin: auto; 
+    }
+}
+@media screen and (max-width: 480px){
+    
+
+}
+
+@media screen and (max-width: 340px){
+
+}

@@ -1,0 +1,298 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(180deg,#4e4e4e,#61757c,#6e828f,#918f8f,#918f8f);
+    font-family: 'Comfortaa', cursive;
+}
+
+/*seccion menu*/
+.portfolio__nav{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    position: fixed;
+    background: #5d5e5d;
+    opacity: 1;
+    box-shadow: 0 0 15px;
+}
+section[id]{
+    scroll-margin-top: 65px;
+}
+.portfolio__name{
+    width: 30%;
+    margin: 10px auto 10px;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    color:#f1f1f1;
+    border-color: none;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+.portfolio__list__nav{
+    width: 70%;
+    display: flex;
+}
+.portfolio__list__element{
+    width: 12%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto 10px;
+    font-size: 1.25rem;
+    color:#f1f1f1;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    border-bottom: 0.15rem solid transparent;
+}
+.portfolio__list__element:hover{
+    color: #589ffc;
+    border-bottom: 0.15rem solid;
+    cursor: pointer;
+}
+.portfolio__list__element, a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+/*seccion presentacion*/
+.portfolio__presentation{
+    text-align: center;
+    color:#dad6d6;
+    text-shadow: 0.2em 0.2em 0.9em black
+
+}
+h1{
+    padding: 100px 0 20px;
+    font-size: 3rem;
+
+}
+.img__presentation{
+    width: 300px;
+    border: 0.5rem solid #7aac6e;
+    border-radius: 50%;
+ 
+}
+.portfolio__about{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+.about__me{
+    margin: 50px 0 50px;
+    font-weight: bold;
+}
+.portfolio__about p{
+    color:#1b1a1a;
+    font-size: 1rem;
+}
+.portfolio__about img{
+    margin-top: 20px;
+    width: 70px;
+}
+.description{
+    background-color: #bbdbb3;
+    padding: 20px;
+}
+h2{
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    margin: 150px 0 50px;
+    font-weight: bold;
+}
+
+/*seccion skill y hobies*/
+.portfolio__skills{
+    text-align: center;
+}
+.div__skills{
+ display: flex;
+ width: 100%;
+ align-content: space-evenly;
+}
+.img__skills{
+    display: flex;
+    width: 300px;
+    margin: auto;
+    
+}
+
+.portfolio__img__hobbies{
+    display: flex;
+    width: 100%;
+    align-content: space-evenly; 
+}
+.conteriner__img__hobbies{
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.25rem;
+}
+.img__hobbies{
+    width: 100px;
+}
+
+.portfolio__img__formations{
+    width: 400px;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+}
+.portfolio__img__formations img{
+    width: 100%;
+}
+.container__img__formations{
+    width: 400px;
+    background: #eee6e6;
+    margin: 75px 0 30px;
+    border-radius: 15px;
+}
+.img__formations{
+    width: 100%;
+}
+/*seccion de experiencia*/
+.container__experience{
+    display: flex;
+    flex-direction: column;
+}
+.container__experience h3{
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+.container__experience p{
+    color: #4e4e4e;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+.section__encrypt, .section__game{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 50px 0 50px;
+    
+}
+.container__img__experience{
+    width: 60%;
+}
+.img__experience{
+    width: 90%;
+}
+.container__links__experience{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+}
+.container__button{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.link__repository, .link__demo{
+    width: 25%;
+    padding: 0 3px 0 3px;
+}
+.button__repository{
+    width: 100%;
+    height: 50px;
+    font-size: 1.25rem;
+    border-radius: 15px 15px 0 15px;
+    background: #ffffff;
+    justify-content: right;
+    
+}
+.button__repository:hover{
+ background: #e9e8e8;
+ cursor: pointer;
+}
+.button__demo{
+    width: 100%;
+    height: 50px;
+    font-size: 1.25rem;
+    border-radius: 15px 15px 0 15px;
+    background: #4de028;
+    justify-content: left;
+    padding-left: 5px;  
+}
+.button__demo:hover{
+    background: #29cc00;
+    cursor: pointer;
+}
+/*parte de contacto*/
+.portfolio__contact__mensaje{
+    width: 100%;
+    margin: 0 auto 50px;
+}
+.portfolio__contact__container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolio__contact__img{
+    display: flex;
+    width: 25%;
+    padding: 0 7.5% 0 7.5%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/contact-us.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 150px;
+}  
+.portfolio__contact__form{
+    width: 50%;
+}
+.portfolio__contact__form h2{
+    margin-bottom: 10px;
+    text-align: initial;
+}
+.portfolio__contact__form li{
+    flex-direction: column;
+}
+.contact{
+    height: 50px;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    background: radial-gradient(#dddcdc,#c9c7c7);
+    margin:10px 0 20px;
+    font-size: 1.5rem;
+    
+}
+.contact__textarea{
+    height: 150px;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    background: radial-gradient(#dddcdc,#c9c7c7);
+    margin:10px 0 20px;
+    font-size: 1.5rem;  
+}
+.contact__button{
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.5rem; 
+    border: none;
+    background: #5d76ff;
+}
+.contact__button:hover{
+    background-color: #2342f5;
+    cursor: pointer;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    margin: 250px 0 20px;
+}
+.link_github{
+    width: 100%;
+    text-align: center;
+}
+.logo_github{
+    width: 32px;
+}
+.logo_github:hover{
+    cursor: pointer;
+}
